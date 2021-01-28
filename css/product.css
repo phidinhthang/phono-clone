@@ -782,6 +782,15 @@ position:absolute;
 	font-size:15px;
 }
 
+@media screen and (max-width:768px){
+	.product-content {
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.product-infor {
+		margin-right:auto;
+	}
+}
 
 .product-infor span{
 	font-weight:700;
@@ -1009,7 +1018,7 @@ ol.tab-list {
 
 @media screen and (max-width:568px) {
 	.structure {
-		margin-left:-10px;
+		margin-left:auto;
 	}
 	.nav-tab {
 		width:100%;
@@ -1096,7 +1105,8 @@ ol.tab-list {
 
 @media screen and (max-width:768px) {
 	.main-content {
-		margin-left:0px;
+		margin-left:auto;
+		margin-right:auto;
 	}
 	.related-product .newarrives-slide > div {
 		flex-basis:50%;
@@ -1119,7 +1129,11 @@ ol.tab-list {
 	flex-wrap: nowrap;
 }
 
-
+@media screen and (max-width:768px){
+	.recent-viewed {
+		justify-content: center;
+	}
+}
 
 .recent-viewed-item {
 	flex-basis: 25%;
