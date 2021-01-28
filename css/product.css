@@ -455,7 +455,7 @@ position:absolute;
 	}
 	.aside {
 		order:3;
-		margin-left: 20px;
+		margin-left: auto;
 		display:flex;
 		flex-direction: row;
 		flex-wrap:wrap;
